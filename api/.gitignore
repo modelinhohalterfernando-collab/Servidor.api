@@ -1,2 +1,13 @@
-.vercel
+# Ignorar diretórios de dependências
+/vendor/
+/node_modules/
+
+# Ignorar arquivos de ambiente
+.env
 .env*.local
+
+# Ignorar cache do Vercel
+.vercel
+
+# Ignorar logs
+*.log

@@ -1,0 +1,8 @@
+{
+  "builds": [
+    { "src": "**/*.php", "use": "@vercel/php" }
+  ],
+  "routes": [
+    { "src": "/api/(.*)", "dest": "apicérebro.php" }
+  ]
+}

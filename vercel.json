@@ -1,11 +1,8 @@
 {
-  "version": 2,
-  "functions": {
-    "api/apicérebro.php": {
-      "runtime": "vercel-php@0.7.4"
-    }
-  },
+  "builds": [
+    { "src": "**/*.php", "use": "@vercel/php" }
+  ],
   "routes": [
-    { "src": "/(.*)", "dest": "api/apicérebro.php" }
+    { "src": "/api/(.*)", "dest": "apicérebro.php" }
   ]
 }

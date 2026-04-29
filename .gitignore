@@ -1,3 +1,8 @@
-api/firebase.json
-.vercel
+/vendor/
+/node_modules/
+/.env
 .env*.local
+.vercel
+*.log
+*.tmp
+*.swp
